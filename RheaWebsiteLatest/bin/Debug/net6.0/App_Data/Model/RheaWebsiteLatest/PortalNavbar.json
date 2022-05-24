@@ -1,0 +1,49 @@
+{
+  "PersistentObject": {
+    "$id": "PersistentObject:26122702-11d9-327c-99cb-2e090eda637b",
+    "Id": "26122702-11d9-327c-99cb-2e090eda637b",
+    "SchemaName": "RheaWebsiteLatest",
+    "Type": "PortalNavbar",
+    "Salt": "__c1zPUuLxMf1LtT_1z8SiKx2WItJKAznhbOEWx9BPu5WKNT2K4DjQ",
+    "Label": {
+      "en": "Portal navbar"
+    },
+    "Groups": [
+      {
+        "$id": "PersistentObjectAttributeGroup:2a124e33-c278-47f4-9181-8be7277c7b24",
+        "Id": "2a124e33-c278-47f4-9181-8be7277c7b24"
+      }
+    ],
+    "Tabs": [
+      {
+        "$id": "PersistentObjectAttributeTab:40b6bbcc-521e-4e14-af8d-04b9aac24ef7",
+        "Id": "40b6bbcc-521e-4e14-af8d-04b9aac24ef7"
+      }
+    ],
+    "Attributes": [
+      {
+        "$id": "PersistentObjectAttribute:f1fc1c3e-2895-3e25-8fa5-8dad4e00f6d3",
+        "Id": "f1fc1c3e-2895-3e25-8fa5-8dad4e00f6d3",
+        "Offset": 10,
+        "Name": "Items",
+        "Label": {
+          "en": "Items"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:2a124e33-c278-47f4-9181-8be7277c7b24"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:40b6bbcc-521e-4e14-af8d-04b9aac24ef7"
+        }
+      }
+    ],
+    "Queries": []
+  },
+  "Queries": [],
+  "Reports": []
+}

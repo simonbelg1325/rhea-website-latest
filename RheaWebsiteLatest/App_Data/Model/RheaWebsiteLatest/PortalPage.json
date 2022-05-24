@@ -1,0 +1,198 @@
+{
+  "PersistentObject": {
+    "$id": "PersistentObject:870f424a-c4b9-3e0e-bebe-693bdf45aa4f",
+    "Id": "870f424a-c4b9-3e0e-bebe-693bdf45aa4f",
+    "SchemaName": "RheaWebsiteLatest",
+    "Type": "PortalPage",
+    "Salt": "rqwTx92gKF_hpzH91CaeHeekAh2p5UHL5L8reFdIEsOaRaLUIczKBQ",
+    "Breadcrumb": "{Name}",
+    "ContextProperty": "PortalPages",
+    "Label": {
+      "en": "Portal page"
+    },
+    "Groups": [
+      {
+        "$id": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce",
+        "Id": "db487fef-b363-4c13-a55e-42e857a43fce"
+      }
+    ],
+    "Tabs": [
+      {
+        "$id": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555",
+        "Id": "d51449b7-a4cc-474a-8c22-e83110723555"
+      }
+    ],
+    "Attributes": [
+      {
+        "$id": "PersistentObjectAttribute:03713e3c-ea4e-3e2a-8d4b-3a3ae3c244ce",
+        "Id": "03713e3c-ea4e-3e2a-8d4b-3a3ae3c244ce",
+        "Offset": 10,
+        "Rules": "Required",
+        "Name": "Active",
+        "Label": {
+          "en": "Active"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:Boolean"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:64d0fb60-4ae5-30a7-9da0-603f61836d3b",
+        "Id": "64d0fb60-4ae5-30a7-9da0-603f61836d3b",
+        "Offset": 20,
+        "Rules": "MaxLength(255)",
+        "Name": "ChangedBy",
+        "Label": {
+          "en": "Changed by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:fd6923a8-6b44-370b-a17d-2e0e01cb9e6b",
+        "Id": "fd6923a8-6b44-370b-a17d-2e0e01cb9e6b",
+        "Offset": 30,
+        "Name": "ChangedOn",
+        "Label": {
+          "en": "Changed on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:NullableDateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:7c491743-4ada-344d-b35e-70d7e692c9e9",
+        "Id": "7c491743-4ada-344d-b35e-70d7e692c9e9",
+        "Offset": 40,
+        "Rules": "NotEmpty; MaxLength(255)",
+        "Name": "CreatedBy",
+        "Label": {
+          "en": "Created by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:54811a6d-58d5-37dc-846d-9571261d8219",
+        "Id": "54811a6d-58d5-37dc-846d-9571261d8219",
+        "Offset": 50,
+        "Rules": "Required",
+        "Name": "CreatedOn",
+        "Label": {
+          "en": "Created on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:DateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:0d669ef0-80a4-31ae-862d-ff55a2024f39",
+        "Id": "0d669ef0-80a4-31ae-862d-ff55a2024f39",
+        "Offset": 5,
+        "Rules": "NotEmpty; MaxLength(100)",
+        "Name": "Name",
+        "Label": {
+          "en": "Name"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:2b016447-251f-327d-8bc3-4c2d51b2b8d7",
+        "Id": "2b016447-251f-327d-8bc3-4c2d51b2b8d7",
+        "Offset": 7,
+        "Rules": "Required",
+        "Name": "Order",
+        "Label": {
+          "en": "Order"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:Int32"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:db487fef-b363-4c13-a55e-42e857a43fce"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:d51449b7-a4cc-474a-8c22-e83110723555"
+        }
+      }
+    ],
+    "Queries": [
+      "0106594d-0de3-42e6-a121-5408cf307f18",
+      "1a99caf7-d5cc-4429-90f6-6faec88859d1",
+      "90481130-b3a3-4bfd-97a2-b5f0a8c95edc",
+      "c4a605c2-3349-441b-becf-f4d7009f68cb",
+      "d95437d9-d0b4-41a8-8141-1d058df4a0d7"
+    ]
+  },
+  "Queries": [
+    {
+      "$id": "Query:e8648841-0234-40f6-b782-5469abb8adb5",
+      "Id": "e8648841-0234-40f6-b782-5469abb8adb5",
+      "Source": "Database.PortalPages",
+      "AutoQuery": true,
+      "Name": "PortalPages",
+      "Label": {
+        "en": "Portal pages"
+      },
+      "PersistentObject": {
+        "$ref": "PersistentObject:870f424a-c4b9-3e0e-bebe-693bdf45aa4f"
+      },
+      "Columns": []
+    }
+  ],
+  "Reports": []
+}

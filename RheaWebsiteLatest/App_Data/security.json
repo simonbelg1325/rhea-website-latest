@@ -1,0 +1,93 @@
+{
+  "Groups": {
+    "fe9429ba-d5cd-4e7c-bbe4-05a4c3497d97": "Administrators",
+    "d3bd3312-0730-43d9-9bf4-9e14c75b00f7": "Users"
+  },
+  "Rights": [
+    {
+      "Id": "5edea230-0aa0-4dc4-989a-6af19249c1d5",
+      "Resource": "Query/RheaWebsiteLatest",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "effa69bd-75b8-4331-b4fa-f9fe1cac9ba2",
+      "Resource": "QueryRead/RheaWebsiteLatest.Contact",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "da017bd1-1609-48b1-9daa-f9e3065199da",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalMain",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "7f0d37c5-fab8-4bbf-9b39-6fdd6ccf5995",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalNavbar",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "d4520fba-cb6e-48cf-875c-65fe9589be7e",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalPage",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "23e8cfee-1cd0-441e-8cf6-930a32ac9523",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalSection",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "683b1d91-ce36-4de1-91d3-4d7b1a6f42ac",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalService",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "b80980b0-0dd7-4389-8be1-1f9a00e25c12",
+      "Resource": "QueryRead/RheaWebsiteLatest.PortalVideo",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "2d985fbb-7c36-4109-bfea-cb06dc26161a",
+      "Resource": "QueryRead/RheaWebsiteLatest.Reference",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "54865b1a-a14d-48e7-85b4-7e284ba85bd9",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.Contact",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "53afcb03-df15-4d85-ae49-a9aac2292eb9",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalMain",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "0ad7c625-1523-40cd-8d86-763a6389ff46",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalNavbar",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "731017be-1096-4d66-bc6c-81bb70f5f810",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalPage",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "3f66d08d-824a-4b17-b42b-1150c6227aed",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalSection",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "8c97013e-61b4-4b9e-96d9-c7d4f51cfed9",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalService",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "a5d39eb8-0e71-4abf-9a96-cc9c9b7e76b8",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.PortalVideo",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    },
+    {
+      "Id": "233b546b-5ef8-430f-9a2b-ab7bdd24ee9e",
+      "Resource": "QueryReadEditNewDelete/RheaWebsiteLatest.Reference",
+      "UserId": "75f5bef8-1e2b-4cb2-9ac1-9780cbce3595"
+    }
+  ]
+}

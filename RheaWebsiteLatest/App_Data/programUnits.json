@@ -1,0 +1,83 @@
+{
+  "ProgramUnits": [
+    {
+      "Name": "Home",
+      "Title": {
+        "en": "Home"
+      },
+      "Groups": [],
+      "Items": [
+        {
+          "Offset": 10,
+          "Title": {
+            "en": "Contacts"
+          },
+          "Name": "Contacts",
+          "Query": {
+            "$ref": "Query:3f8539d1-fd80-490c-a544-25440e831501"
+          }
+        },
+        {
+          "Offset": 20,
+          "Title": {
+            "en": "Portal mains"
+          },
+          "Name": "PortalMains",
+          "Query": {
+            "$ref": "Query:14f6de62-8616-4abc-8198-4dc25316d6fc"
+          }
+        },
+        {
+          "Offset": 30,
+          "Title": {
+            "en": "Portal pages"
+          },
+          "Name": "PortalPages",
+          "Query": {
+            "$ref": "Query:e8648841-0234-40f6-b782-5469abb8adb5"
+          }
+        },
+        {
+          "Offset": 40,
+          "Title": {
+            "en": "Portal sections"
+          },
+          "Name": "PortalSections",
+          "Query": {
+            "$ref": "Query:3c95bae1-a4bb-4007-a94f-707338fdb5d3"
+          }
+        },
+        {
+          "Offset": 50,
+          "Title": {
+            "en": "Portal services"
+          },
+          "Name": "PortalServices",
+          "Query": {
+            "$ref": "Query:bb9081a3-f149-4208-9ef8-eb19a6f09405"
+          }
+        },
+        {
+          "Offset": 60,
+          "Title": {
+            "en": "Portal videos"
+          },
+          "Name": "PortalVideos",
+          "Query": {
+            "$ref": "Query:46c49e4c-c520-428e-aac0-f771693c56d7"
+          }
+        },
+        {
+          "Offset": 70,
+          "Title": {
+            "en": "References"
+          },
+          "Name": "References",
+          "Query": {
+            "$ref": "Query:2711f7e7-c632-4bc9-8d83-ae90dc7b5aef"
+          }
+        }
+      ]
+    }
+  ]
+}

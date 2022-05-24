@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "useDefineForClassFields": false,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "noEmitOnError": false,
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+          "https://cdn.jsdelivr.net/gh/Vidyano/vidyano@3.0.0-beta.20/wwwroot/dist/vidyano.js": [ "vidyano.d.ts" ]
+        }
+    },
+    "compileOnSave": true,
+    "include": [
+      "wwwroot/vidyano.ts",
+      "wwwroot/web-components/**/*.ts"
+    ]
+}

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>66C790E5-E392-4939-80DB-49B1510ECFC4</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="wwwroot\web-components\NewFolder\**" />
+	  <Content Remove="wwwroot\web-components\NewFolder\**" />
+	  <EmbeddedResource Remove="wwwroot\web-components\NewFolder\**" />
+	  <None Remove="wwwroot\web-components\NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Vidyano.PostgreSQL" Version="6.0.20211112.3569" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="App_Data\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>

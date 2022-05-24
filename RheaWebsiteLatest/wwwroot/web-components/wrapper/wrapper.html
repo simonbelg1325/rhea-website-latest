@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="wrapper.css" />
+<header class="layout horizontal justified relative">
+    <nav class="fit layout center-justified horizontal main" hidden$="[[_isMenuActive('portalpage', activeMenu)]]">
+        <img class="self-center" src="../../web-components/Images/rhea-logo.png" alt="rhea-logo" />
+
+        <dom-repeat items="[[items]]" as="item">
+            <template>
+                <vi-button path$="[[item.Path]]" active$="[[_isRoute(activeRoute, item.Path)]]" on-tap="_navigate"
+                    inverse>
+                    <span>[[item.Name]]</span>
+                </vi-button>
+            </template>
+        </dom-repeat>
+
+        <!-- <template is="dom-repeat" items="[[items]]" as="item">
+            <button is="vi-button" path$="[[item.Path]]" active$="[[_isRoute(activeRoute, item.Path)]]"
+                on-tap="_navigate" inverse>
+                <span>[[item.Name]]</span>
+            </button>
+        </template>  -->
+    </nav>
+
+    <nav class="layout center-justified horizontal side">
+        <img class="self-center" src="../../web-components/Images/rhea-logo.png" alt="rhea-logo" />
+        <div class="nav-icon" on-tap="_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="sidebar-container">
+            <dom-repeat items="[[items]]" as="item">
+                <template>
+                    <vi-button path$="[[item.Path]]" active$="[[_isRoute(activeRoute, item.Path)]]" on-tap="_navigate"
+                        inverse>
+                        <span>[[item.Name]]</span>
+                    </vi-button>
+                </template>
+            </dom-repeat>
+
+            <!-- <template is="dom-repeat" items="[[items]]" as="item">
+                <button is="vi-button" path$="[[item.Path]]" active$="[[_isRoute(activeRoute, item.Path)]]"
+                    on-tap="_navigate" inverse>
+                    <span>[[item.Name]]</span>
+                </button>
+            </template>  -->
+        </div>
+    </nav>
+</header>

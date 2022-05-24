@@ -1,0 +1,253 @@
+{
+  "PersistentObject": {
+    "$id": "PersistentObject:6c161e7f-6f06-363c-8e94-638d45d9e94f",
+    "Id": "6c161e7f-6f06-363c-8e94-638d45d9e94f",
+    "SchemaName": "RheaWebsiteLatest",
+    "Type": "Contact",
+    "Salt": "qeGTCx3LoyGy_YvOZdtitNEY3EFRJ0qG_3jyRdRMVJz0II6ezNGHKg",
+    "Breadcrumb": "{Address}",
+    "ContextProperty": "Contacts",
+    "Label": {
+      "en": "Contact"
+    },
+    "Groups": [
+      {
+        "$id": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc",
+        "Id": "33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+      }
+    ],
+    "Tabs": [
+      {
+        "$id": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a",
+        "Id": "043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+      }
+    ],
+    "Attributes": [
+      {
+        "$id": "PersistentObjectAttribute:0374107b-0f07-3f76-b40a-c84bbc5ec283",
+        "Id": "0374107b-0f07-3f76-b40a-c84bbc5ec283",
+        "Offset": 10,
+        "Rules": "NotEmpty",
+        "Name": "Address",
+        "Label": {
+          "en": "Address"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:4ea4ea0d-70bc-372e-851b-587ecb41e625",
+        "Id": "4ea4ea0d-70bc-372e-851b-587ecb41e625",
+        "Offset": 20,
+        "Rules": "MaxLength(255)",
+        "Name": "ChangedBy",
+        "Label": {
+          "en": "Changed by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:1e53705c-7bfe-3600-9d94-2eaae2f6f0d6",
+        "Id": "1e53705c-7bfe-3600-9d94-2eaae2f6f0d6",
+        "Offset": 30,
+        "Name": "ChangedOn",
+        "Label": {
+          "en": "Changed on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:NullableDateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:1ffbd87d-15c7-3f91-bbf6-5b78a70e3bcd",
+        "Id": "1ffbd87d-15c7-3f91-bbf6-5b78a70e3bcd",
+        "Offset": 40,
+        "Rules": "NotEmpty; MaxLength(255)",
+        "Name": "CreatedBy",
+        "Label": {
+          "en": "Created by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:310a5fad-022e-3452-adf8-e21f7b2678f9",
+        "Id": "310a5fad-022e-3452-adf8-e21f7b2678f9",
+        "Offset": 50,
+        "Rules": "Required",
+        "Name": "CreatedOn",
+        "Label": {
+          "en": "Created on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:DateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:396273a4-5e8d-3d90-b2e2-15154a2d3e3b",
+        "Id": "396273a4-5e8d-3d90-b2e2-15154a2d3e3b",
+        "Offset": 15,
+        "Rules": "NotEmpty; IsEmail",
+        "Name": "Email",
+        "Label": {
+          "en": "Email"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:f37a9240-a480-3b8c-b9f0-eee00860b3de",
+        "Id": "f37a9240-a480-3b8c-b9f0-eee00860b3de",
+        "Offset": 17,
+        "Rules": "NotEmpty",
+        "Name": "Map",
+        "DataTypeHints": "QueryMaxContentLength=0",
+        "Label": {
+          "en": "Map"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttributeWithReference:08d27062-0016-30bc-92c0-81a56aa1fe04",
+        "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+        "DisplayAttribute": "Name",
+        "LookupId": "e8648841-0234-40f6-b782-5469abb8adb5",
+        "Id": "08d27062-0016-30bc-92c0-81a56aa1fe04",
+        "Offset": 5,
+        "Rules": "Required",
+        "Name": "PortalPage",
+        "Label": {
+          "en": "Portal page"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:Reference"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:d814a26b-9310-35d6-8174-a78cbeff8203",
+        "Id": "d814a26b-9310-35d6-8174-a78cbeff8203",
+        "Offset": 18,
+        "Rules": "NotEmpty",
+        "Name": "Tel",
+        "Label": {
+          "en": "Tel"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:33fb50e6-a70c-4f5c-8b94-28636ef729bc"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:043274fa-c3e0-46cd-b9fc-b7282f541b9a"
+        }
+      }
+    ],
+    "Queries": []
+  },
+  "Queries": [
+    {
+      "$id": "Query:3f8539d1-fd80-490c-a544-25440e831501",
+      "Id": "3f8539d1-fd80-490c-a544-25440e831501",
+      "Source": "Database.Contacts",
+      "AutoQuery": true,
+      "Name": "Contacts",
+      "Label": {
+        "en": "Contacts"
+      },
+      "PersistentObject": {
+        "$ref": "PersistentObject:6c161e7f-6f06-363c-8e94-638d45d9e94f"
+      },
+      "Columns": []
+    },
+    {
+      "$id": "Query:c4a605c2-3349-441b-becf-f4d7009f68cb",
+      "Id": "c4a605c2-3349-441b-becf-f4d7009f68cb",
+      "Offset": 10,
+      "Source": "Contacts",
+      "AutoQuery": true,
+      "Name": "PortalPage_Contacts",
+      "Label": {
+        "en": "Contacts"
+      },
+      "PersistentObject": {
+        "$ref": "PersistentObject:6c161e7f-6f06-363c-8e94-638d45d9e94f"
+      },
+      "Columns": []
+    }
+  ],
+  "Reports": []
+}

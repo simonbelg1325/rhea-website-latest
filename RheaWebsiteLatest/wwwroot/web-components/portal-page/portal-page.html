@@ -1,0 +1,248 @@
+<link rel="stylesheet" href="portal-page.css" />
+<link rel="stylesheet" href="../../../node_modules/animate.css/animate.css" />
+<vi-spinner hidden="[[!isBusy]]" color="#4682B4"></vi-spinner>
+<vi-scroller class="flex" no-horizontal>
+
+    <dom-repeat items="[[query.PortalPage_PortalMains.items]]" as="info">
+        <template>
+            <div class="video-wrapper">
+                <iframe src="[[info.values.PortalVideo]]" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                    allowfullscreen allow=autoplay></iframe>
+                <MenuContent>
+                    <MenuH1>[[info.values.NavSectionHeader]]</MenuH1>
+                    <MenuP>[[info.values.NavSectionTitle]]</MenuP>
+                </MenuContent>
+            </div>
+        </template>
+    </dom-repeat>
+
+    <dom-repeat items="[[query.PortalPage_PortalSections.items]]" as="info">
+        <template>
+            <dom-if if="[[info.values.LightBg]]">
+                <template>
+                    <div class="info-container" light-bg>
+                        <vi-grid>
+                            <dom-if if="[[info.values.ImgStart]]">
+                                <template>
+                                    <div class="column-img animate__animated animate__fadeInLeft animate__delay-1s">
+                                        <dom-if if="[[info.values.Image]]">
+                                            <template>
+                                                <img src="[[info.values.Image]]" alt="[[info.values.Alt]]" />
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[info.values.VideoUrl]]">
+                                            <template>
+                                                <div class="video-wrapper">
+                                                    <iframe src="[[info.values.VideoUrl]]" frameborder="0"></iframe>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                    </div>
+                                    <div class="column-text animate__animated animate__fadeInRight animate__delay-1s">
+                                        <div class="text-wrapper">
+                                            <TopLine>[[info.values.TopLine]]</TopLine>
+                                            <Heading>[[info.values.Headline]]</Heading>
+                                            <Description dark-text inner-h-t-m-l="[[info.values.Description]]" />
+                                        </div>
+                                    </div>
+                                </template>
+                            </dom-if>
+
+                            <dom-if if="[[!info.values.ImgStart]]">
+                                <template>
+                                    <div class="column-text animate__animated animate__fadeInLeft animate__delay-1s">
+                                        <div class="text-wrapper">
+                                            <TopLine>[[info.values.TopLine]]</TopLine>
+                                            <Heading>[[info.values.Headline]]</Heading>
+                                            <Description dark-text inner-h-t-m-l="[[info.values.Description]]" />
+                                        </div>
+                                    </div>
+                                    <div class="column-img animate__animated animate__fadeInRight animate__delay-1s">
+                                        <dom-if if="[[info.values.Image]]">
+                                            <template>
+                                                <img src="[[info.values.Image]]" alt="[[info.values.Alt]]" />
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[info.values.VideoUrl]]">
+                                            <template>
+                                                <div class="video-wrapper">
+                                                    <iframe src="[[info.values.VideoUrl]]" frameborder="0"></iframe>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                    </div>
+                                </template>
+                            </dom-if>
+                        </vi-grid>
+                    </div>
+                </template>
+            </dom-if>
+            <dom-if if="[[!info.values.LightBg]]">
+                <template>
+                    <div class="info-container">
+                        <vi-grid>
+                            <dom-if if="[[info.values.ImgStart]]">
+                                <template>
+                                    <div class="column-img animate__animated animate__fadeInLeft animate__delay-1s">
+                                        <dom-if if="[[info.values.Image]]">
+                                            <template>
+                                                <img src="[[info.values.Image]]" alt="[[info.values.Alt]]" />
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[info.values.VideoUrl]]">
+                                            <template>
+                                                <div class="video-wrapper">
+                                                    <iframe src="[[info.values.VideoUrl]]" frameborder="0"></iframe>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                    </div>
+                                    <div class="column-text animate__animated animate__fadeInRight animate__delay-1s">
+                                        <div class="text-wrapper">
+                                            <TopLine>[[info.values.TopLine]]</TopLine>
+                                            <Heading light-text>[[info.values.Headline]]</Heading>
+                                            <Description inner-h-t-m-l="[[info.values.Description]]" />
+                                        </div>
+                                    </div>
+                                </template>
+                            </dom-if>
+
+                            <dom-if if="[[!info.values.ImgStart]]">
+                                <template>
+                                    <div class="column-text animate__animated animate__fadeInLeft animate__delay-1s">
+                                        <div class="text-wrapper">
+                                            <TopLine>[[info.values.TopLine]]</TopLine>
+                                            <Heading light-text>[[info.values.Headline]]</Heading>
+                                            <Description inner-h-t-m-l="[[info.values.Description]]" />
+                                        </div>
+                                    </div>
+                                    <div class="column-img  animate__animated animate__fadeInRight animate__delay-1s">
+                                        <dom-if if="[[info.values.Image]]">
+                                            <template>
+                                                <img src="[[info.values.Image]]" alt="[[info.values.Alt]]" />
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[info.values.VideoUrl]]">
+                                            <template>
+                                                <div class="video-wrapper">
+                                                    <iframe src="[[info.values.VideoUrl]]" frameborder="0"></iframe>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                    </div>
+                                </template>
+                            </dom-if>
+                        </vi-grid>
+                    </div>
+                </template>
+            </dom-if>
+        </template>
+    </dom-repeat>
+
+    <dom-if if="[[_checkName(po, 'Home')]]">
+        <template>
+            <services-container>
+                <h1>Our Services</h1>
+                <vi-grid>
+                    <dom-repeat items="[[query.PortalPage_PortalServices.items]]" as="services">
+                        <template>
+                            <services-card>
+                                <img src="[[services.values.Image]]" alt="" />
+                                <h2>[[services.values.Title]]</h2>
+                                <p>[[services.values.Message]]</p>
+                            </services-card>
+                        </template>
+                    </dom-repeat>
+                </vi-grid>
+            </services-container>
+        </template>
+    </dom-if>
+
+    <dom-if if="[[_checkName(po, 'References')]]">
+        <template>
+            <h1 class="title">They already trust us</h1>
+            <vi-grid class="reference">
+                <dom-repeat items="[[query.PortalPage_References.items]]" as="references">
+                    <template>
+                        <div class="reference-card">
+                            <img src="[[references.values.Image]]" alt="[[references.values.Alt]]" />
+                        </div>
+                    </template>
+                </dom-repeat>
+            </vi-grid>
+        </template>
+    </dom-if>
+
+    <dom-if if="[[_checkName(po, 'Contact us')]]">
+        <template>
+            <dom-repeat items="[[query.PortalPage_Contacts.items]]" as="contact">
+                <template>
+                    <div class="map">
+                        <iframe src="[[contact.values.Map]]" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen></iframe>
+
+                        <vi-grid class="contact">
+                            <dom-repeat items="[[query.PortalPage_Contacts.items]]" as="contact">
+                                <template>
+                                    <div class="contact-info layout center-justified">
+                                        <dom-if if="[[contact.values.Address]]">
+                                            <template>
+                                                <div class="contact-content">
+                                                    <vi-icon source="rhea-address"></vi-icon>
+                                                    <p>[[contact.values.Address]]</p>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[contact.values.Email]]">
+                                            <template>
+                                                <div class="contact-content">
+                                                    <vi-icon source="rhea-email"></vi-icon>
+                                                    <p>[[contact.values.Email]]</p>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                        <dom-if if="[[contact.values.Tel]]">
+                                            <template>
+                                                <div class="contact-content">
+                                                    <vi-icon source="rhea-tel"></vi-icon>
+                                                    <p>[[contact.values.Tel]]</p>
+                                                </div>
+                                            </template>
+                                        </dom-if>
+                                    </div>
+                                </template>
+                            </dom-repeat>
+                        </vi-grid>
+                    </div>
+
+                </template>
+            </dom-repeat>
+
+        </template>
+    </dom-if>
+
+    <dom-if if="[[!_checkName(po, 'Helpdesk')]]">
+        <template>
+            <footer>
+                <vi-grid id="footer">
+                    <div id="container">
+                        <div id="img-wrapper">
+                            <img src="../../web-components/Images/rhea-logo-1.png" alt="rhea-logo" />
+                        </div>
+                    </div>
+                    <div id="footer-wrapper">
+                        <vi-grid>
+                            <dom-repeat items="[[items]]" as="footer">
+                                <template>
+                                    <vi-button is="vi-button" label="[[footer.Name]]" path$="[[footer.Path]]"
+                                        active$="[[_isRoute(activeRoute, footer.Path)]]" on-tap="_navigate" inverse>
+                                    </vi-button>
+                                </template>
+                            </dom-repeat>
+                        </vi-grid>
+                    </div>
+                </vi-grid>
+            </footer>
+        </template>
+    </dom-if>
+</vi-scroller>

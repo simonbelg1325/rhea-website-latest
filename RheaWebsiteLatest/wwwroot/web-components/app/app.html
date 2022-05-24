@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="app.css" />
+
+<rhea-wrapper></rhea-wrapper>
+
+<vi-app-route-presenter class="fit">
+    <vi-app-route class="fit" route="">
+        <template>
+            <rhea-portal-page class="fit"></rhea-portal-page>
+        </template>
+    </vi-app-route>
+    <vi-app-route class="fit" route="portalpage(/:objectId*)">
+        <template>
+            <rhea-portal-page class="fit"></rhea-portal-page>
+        </template>
+    </vi-app-route>
+    <vi-app-route class="fit" route="sign-in(/:stateOrReturnUrl*)(/:returnUrl*)"
+        route-alt="SignIn(/:stateOrReturnUrl*)(/:returnUrl*)" allow-signed-out>
+        <template>
+            <vi-sign-in label="Custom Demo" logo="">
+                <slot name="sign-in-background"></slot>
+                <slot name="sign-in-footer"></slot>
+            </vi-sign-in>
+        </template>
+    </vi-app-route>
+    <vi-app-route route="sign-out(/)(:returnUrl*)" route-alt="SignOut(/)(:returnUrl*)" allow-signed-out>
+        <template>
+            <vi-sign-out></vi-sign-out>
+        </template>
+    </vi-app-route>
+</vi-app-route-presenter>

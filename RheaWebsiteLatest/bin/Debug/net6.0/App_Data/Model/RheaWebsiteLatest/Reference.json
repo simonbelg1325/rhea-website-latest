@@ -1,0 +1,232 @@
+{
+  "PersistentObject": {
+    "$id": "PersistentObject:2592c2f5-5719-3680-bb6d-0f7cf24bf1cc",
+    "Id": "2592c2f5-5719-3680-bb6d-0f7cf24bf1cc",
+    "SchemaName": "RheaWebsiteLatest",
+    "Type": "Reference",
+    "Salt": "1dFxihEgHo4UC4-0dsnk9kJeNohSiH6yEiPoX3yVFgNjSesSDhKS5g",
+    "Breadcrumb": "{Alt}",
+    "ContextProperty": "References",
+    "Label": {
+      "en": "Reference"
+    },
+    "Groups": [
+      {
+        "$id": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966",
+        "Id": "1795043d-9232-4b7c-80fd-c9c70b05b966"
+      }
+    ],
+    "Tabs": [
+      {
+        "$id": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4",
+        "Id": "f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+      }
+    ],
+    "Attributes": [
+      {
+        "$id": "PersistentObjectAttribute:5621d7a8-57aa-30d8-bcb8-1c8a2b834ca1",
+        "Id": "5621d7a8-57aa-30d8-bcb8-1c8a2b834ca1",
+        "Offset": 10,
+        "Rules": "NotEmpty",
+        "Name": "Alt",
+        "Label": {
+          "en": "Alt"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:71f08d59-94db-3547-a5ea-433799cbbd8c",
+        "Id": "71f08d59-94db-3547-a5ea-433799cbbd8c",
+        "Offset": 20,
+        "Rules": "MaxLength(255)",
+        "Name": "ChangedBy",
+        "Label": {
+          "en": "Changed by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:5de5043e-d75e-31f2-96a4-061f096b5948",
+        "Id": "5de5043e-d75e-31f2-96a4-061f096b5948",
+        "Offset": 30,
+        "Name": "ChangedOn",
+        "Label": {
+          "en": "Changed on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:NullableDateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:ac353ce5-b8a5-39d9-b904-17af4536a936",
+        "Id": "ac353ce5-b8a5-39d9-b904-17af4536a936",
+        "Offset": 40,
+        "Rules": "NotEmpty; MaxLength(255)",
+        "Name": "CreatedBy",
+        "Label": {
+          "en": "Created by"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:3af8fe3d-7af6-3f3e-ae96-c03c12d5b61b",
+        "Id": "3af8fe3d-7af6-3f3e-ae96-c03c12d5b61b",
+        "Offset": 50,
+        "Rules": "Required",
+        "Name": "CreatedOn",
+        "Label": {
+          "en": "Created on"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:DateTime"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:719aa510-4f77-3509-8dd7-55c9cfd17202",
+        "Id": "719aa510-4f77-3509-8dd7-55c9cfd17202",
+        "Offset": 8,
+        "Rules": "NotEmpty",
+        "Name": "Image",
+        "DataTypeHints": "QueryMaxContentLength=0",
+        "Label": {
+          "en": "Image"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:String"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttribute:01816792-d64c-362d-a9bb-004f15b56236",
+        "Id": "01816792-d64c-362d-a9bb-004f15b56236",
+        "Offset": 7,
+        "Rules": "Required",
+        "Name": "Order",
+        "Label": {
+          "en": "Order"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:Int32"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      },
+      {
+        "$id": "PersistentObjectAttributeWithReference:07acc366-1337-3f44-91ac-724d4946ba82",
+        "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+        "DisplayAttribute": "Name",
+        "LookupId": "e8648841-0234-40f6-b782-5469abb8adb5",
+        "Id": "07acc366-1337-3f44-91ac-724d4946ba82",
+        "Offset": 5,
+        "Rules": "Required",
+        "Name": "PortalPage",
+        "Label": {
+          "en": "Portal page"
+        },
+        "Visibility": 7,
+        "ColumnSpan": 1,
+        "DataType": {
+          "$ref": "DataType:Reference"
+        },
+        "Group": {
+          "$ref": "PersistentObjectAttributeGroup:1795043d-9232-4b7c-80fd-c9c70b05b966"
+        },
+        "Tab": {
+          "$ref": "PersistentObjectAttributeTab:f9c74aa3-9554-446b-98a7-57ca2d64a1a4"
+        }
+      }
+    ],
+    "Queries": []
+  },
+  "Queries": [
+    {
+      "$id": "Query:1a99caf7-d5cc-4429-90f6-6faec88859d1",
+      "Id": "1a99caf7-d5cc-4429-90f6-6faec88859d1",
+      "Offset": 50,
+      "Source": "References",
+      "AutoQuery": true,
+      "Name": "PortalPage_References",
+      "Label": {
+        "en": "References"
+      },
+      "PersistentObject": {
+        "$ref": "PersistentObject:2592c2f5-5719-3680-bb6d-0f7cf24bf1cc"
+      },
+      "Columns": []
+    },
+    {
+      "$id": "Query:2711f7e7-c632-4bc9-8d83-ae90dc7b5aef",
+      "Id": "2711f7e7-c632-4bc9-8d83-ae90dc7b5aef",
+      "Source": "Database.References",
+      "AutoQuery": true,
+      "Name": "References",
+      "Label": {
+        "en": "References"
+      },
+      "PersistentObject": {
+        "$ref": "PersistentObject:2592c2f5-5719-3680-bb6d-0f7cf24bf1cc"
+      },
+      "Columns": []
+    }
+  ],
+  "Reports": []
+}

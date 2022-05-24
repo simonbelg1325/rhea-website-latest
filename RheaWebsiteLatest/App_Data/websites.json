@@ -1,0 +1,16 @@
+{
+    "Websites": {
+      "Admin": {
+        "Type": 2,
+        "Bindings": [
+          "*/Admin"
+        ]
+      },
+      "Default": {
+        "Type": 2,
+        "Bindings": [
+          "*"
+        ]
+      }
+    }
+  }

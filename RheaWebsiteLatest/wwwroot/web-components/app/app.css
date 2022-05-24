@@ -1,0 +1,12 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+:host vi-app-route-presenter {
+  top: 60px;
+}
+/*# sourceMappingURL=app.css.map */
